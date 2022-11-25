@@ -32,7 +32,7 @@ public class stepDefinition {
 	 */
 	 
 	
-	 	@Given("^User is on Home Page$")
+	 	@Given("^User is on Home Page$") 
 	    public void user_is_on_home_page() throws Throwable {
 	        System.out.println("Home");
 	    }
