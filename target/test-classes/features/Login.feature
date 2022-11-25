@@ -26,7 +26,7 @@ Feature: Application Login
 #Then hit the url
 
 # using parameter
-@RegTest
+@RegTest 
 Scenario: Home Page deafult login
 Given User is on Home Page
 When User provides search text "cat"
